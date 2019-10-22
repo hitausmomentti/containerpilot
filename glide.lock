@@ -1,63 +1,89 @@
-hash: c13286385a0d957eb3b4e47af1f85b6cd8d8b084c846737477f46ac04d2c44f2
-updated: 2017-11-13T21:22:43.229954534-05:00
+hash: dc264679e94db52170d57e1f6d7476c64342df503f8bb3b3e45270cdc5569ca3
+updated: 2019-10-22T17:10:16.025897664Z
 imports:
+- name: github.com/armon/go-metrics
+  version: ec5e00d3c878b2a97bbe0884ef45ffd1b4f669f5
 - name: github.com/beorn7/perks
-  version: 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9
+  version: 37c8de3658fcb183f997c4e13e8337516ab753e6
   subpackages:
   - quantile
+- name: github.com/cespare/xxhash
+  version: 3b82fb7d186719faeedd0c2864f868c74fbf79a1
+  subpackages:
+  - v2
 - name: github.com/client9/reopen
-  version: 1a6ccbeaae3f56aa0058f5491382cb21726e214e
+  version: dbabf56e0beda57421ccdf6c7431a75a7d8a1562
 - name: github.com/flynn/json5
   version: 7620272ed63390e979cf5882d2fa0506fe2a8db5
 - name: github.com/golang/protobuf
-  version: 6a1fa9404c0aebf36c879bc50152edcc953910d2
+  version: 1680a479a2cfb3fa22b972af7e36d0a0fde47bf8
   subpackages:
   - proto
 - name: github.com/hashicorp/consul
-  version: 783a405d781ffc5edaf2d6b5eff41e22df96644f
+  version: 9be6dfc310ddd54627d698537a98827245185290
   subpackages:
   - api
-  - testutil/retry
+  - sdk/freeport
+  - sdk/testutil
+  - sdk/testutil/retry
 - name: github.com/hashicorp/go-cleanhttp
-  version: 3573b8b52aa7b37b9358d966a898feb387f62437
+  version: d3fcbee8e1810ecee4bdbf415f42f84cfd0e3361
+- name: github.com/hashicorp/go-immutable-radix
+  version: 0146a9aba1948ded4ed290cfd3fded2c15313f63
 - name: github.com/hashicorp/go-rootcerts
-  version: 6bb64b370b90e7ef1fa532be9e591a81c3493e00
+  version: df8e78a645e18d56ed7bb9ae10ffb8174ab892e2
+- name: github.com/hashicorp/go-uuid
+  version: f32f5fe8d6a86bfd2a4f58998002f7b0b91cf78f
+- name: github.com/hashicorp/golang-lru
+  version: 7f827b33c0f158ec5dfbba01bb0b14a4541fd81d
+  subpackages:
+  - simplelru
 - name: github.com/hashicorp/serf
-  version: 91fd53b1d3e624389ed9a295a3fa380e5c7b9dfc
+  version: 8f005026db33f0f2fd6f66cf1f38ee4ae9e93a5a
   subpackages:
   - coordinate
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
 - name: github.com/matttproud/golang_protobuf_extensions
-  version: c12348ce28de40eed0136aa2b644d0ee0650e56c
+  version: c182affec369e30f25d3eb8cd8a478dee585ae7d
   subpackages:
   - pbutil
 - name: github.com/mitchellh/go-homedir
-  version: b8bc1bf767474819792c23f32d8286a45736f1c6
+  version: af06845cf3004701891bf4fdb884bfe4920b3727
+- name: github.com/mitchellh/go-testing-interface
+  version: 6d0b8010fcc857872e42fc6c931227569016843c
 - name: github.com/mitchellh/mapstructure
   version: d2dd0262208475919e1a362f675cfc0e7c10e905
+- name: github.com/pkg/errors
+  version: 27936f6d90f9c8e1145f11ed52ffffbfdb9e0af7
 - name: github.com/prometheus/client_golang
-  version: c5b7fccd204277076155f10851dad72b76a49317
+  version: 170205fb58decfd011f1550d4cfb737230d7ae4f
   subpackages:
   - prometheus
+  - prometheus/internal
+  - prometheus/promhttp
 - name: github.com/prometheus/client_model
-  version: 6f3806018612930941127f2a7c6c453ba2c527d2
+  version: 14fe0d1b01d4d5fc031dd4bec1823bd3ebbe8016
   subpackages:
   - go
 - name: github.com/prometheus/common
-  version: 0866df4b85a18d652b6965be022d007cdf076822
+  version: b5fe7d854c42dc7842e48d1ca58f60feae09d77b
   subpackages:
   - expfmt
   - internal/bitbucket.org/ww/goautoneg
   - model
 - name: github.com/prometheus/procfs
-  version: e645f4e5aaa8506fc71d6edbc5c4ff02c04c46f2
+  version: 34c83637414974b5e7d4bd700b49de3c66631989
   subpackages:
-  - xfs
+  - internal/fs
+  - internal/util
 - name: github.com/sirupsen/logrus
-  version: 202f25545ea4cf9b191ff7f846df5d87c9382c2b
+  version: 839c75faf7f98a33d445d181f3018b5c3409a45e
 - name: golang.org/x/sys
-  version: 94b76065f2d2081d0fef24a6e67c571f51a6408a
+  version: 742c48ecaeb7c624c475e02f3eb0827ebb4970d4
   subpackages:
   - unix
+  - windows
 testImports:
 - name: github.com/davecgh/go-spew
   version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9

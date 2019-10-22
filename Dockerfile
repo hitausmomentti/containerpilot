@@ -1,7 +1,7 @@
 FROM golang
 
-ENV CONSUL_VERSION=1.4.4
-ENV GLIDE_VERSION=0.13.2
+ENV CONSUL_VERSION=1.6.1
+ENV GLIDE_VERSION=0.13.3
 
 RUN  apt-get update \
      && apt-get install -y unzip \
