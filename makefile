@@ -21,8 +21,8 @@ GOARCH ?= $(shell go env GOARCH)
 CGO_ENABLED := 0
 GOEXPERIMENT := framepointer
 
-CONSUL_VERSION := 1.0.0
-GLIDE_VERSION := 0.12.3
+CONSUL_VERSION := 1.6.1
+GLIDE_VERSION := 0.13.3
 
 ## display this help message
 help:
